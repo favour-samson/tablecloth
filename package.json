@@ -1,0 +1,35 @@
+{
+  "name": "next-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "next": "12.2.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.4.0",
+    "react-otp-input": "^2.4.0",
+    "react-redux": "^8.0.2",
+    "redux": "^4.2.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.4.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "eslint": "8.22.0",
+    "eslint-config-next": "12.2.5",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
+  },
+  "engines": {
+    "node": "16.14.0"
+  }
+}
